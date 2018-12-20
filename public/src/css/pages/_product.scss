@@ -1,0 +1,128 @@
+@charset "UTF-8";
+.common {
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+}
+
+.recommend {
+    position: absolute;
+    top: 57%;
+    transform: translateY(-50%);
+    h2 {
+        margin-bottom: 10px;
+        font-weight: normal;
+        font-size: 28px;
+    }
+    ;
+    p {
+        line-height: 2;
+        font-size: 18px;
+    }
+}
+
+
+
+.recommend-t {
+    text-align: center;
+    padding-top: 40px;
+    h2 {
+        margin-bottom: 10px;
+        font-weight: normal;
+        font-size: 28px;
+    }
+    ;
+    p {
+        line-height: 2;
+        font-size: 18px;
+    }
+}
+
+.recommend-pos {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.recommend-16 {
+    right: 14%;
+}
+
+.bgF3 {
+    background: #F3F3F3;
+}
+
+//园务管理
+.mange-banner01 {
+    background: url(/dist/img/product/classMange/park_banner.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.teacher-management {
+    left: 0 !important;
+}
+
+.park_banner_phone {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+//宣传招生
+.rec-banner {
+    position: relative;
+}
+
+.code-wrap {
+    img {
+        margin-right: 20px;
+    }
+}
+
+//安全健康
+.safety-pos {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    p {
+        font-size: 14px;
+    }
+}
+
+.step {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.base-color {
+    color: $brand-primary;
+}
+
+
+.recommend-l0 {
+    left: 0;
+}
+.recommend-r0 {
+    left: 0;
+}
+.recommend-l {
+    left: 12%;
+}
+
+.recommend-r {
+    right: 12%;
+}
+
+@media screen and (max-width:1200px) {
+    .recommend-l {
+        left: 2%;
+    }
+    .recommend-r {
+        right: 2%;
+    }
+}
